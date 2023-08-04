@@ -3,4 +3,7 @@
     <string name="mainPageHeader">CELEBRATING</string>
     <string name="mainPageSubHeader">50 years of Computing\n at the University of\n Waikato</string>
     <string name="mainPageButton">Enter</string>
+    <string name="secondPageButton">Click here for a fun fact about Computing at Waikato</string>
+    <string name="secondPageLogoDescription">Wide logo for the second activity</string>
+    <string name="secondPageDescription">This year the University of Waikato is celebrating 50 years of computing excellence. The Department of Computer Science at the University of Waikato was founded in 1973. In 2023 we celebrate our students, alumni, research, software and more.</string>
 </resources>
