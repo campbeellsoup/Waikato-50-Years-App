@@ -30,58 +30,24 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1.8">
 
-
-            <TextView
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:gravity="bottom|center_horizontal"
-                android:text="@string/mainPageHeader"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="@id/guidelineMiddle"
-                app:layout_constraintTop_toBottomOf="@id/guidelineTop"
-                app:layout_constraintVertical_bias="1.0"
-                tools:layout_editor_absoluteX="0dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="40dp"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/mainPageSubHeader"
-                android:textColor="@color/white"
-                android:textSize="28sp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toTopOf="@id/guidelineMiddle"
-                app:layout_constraintVertical_bias="0.0" />
-
-
-            <androidx.constraintlayout.widget.Guideline
-                android:id="@+id/guidelineTop"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintGuide_percent="0.26" />
-
-            <androidx.constraintlayout.widget.Guideline
-                android:id="@+id/guidelineMiddle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintGuide_percent="0.5" />
-
+                android:src="@drawable/img_main_text"
+                android:layout_marginHorizontal="10dp"
+                android:paddingTop="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="0.8">
 
             <Button
                 android:id="@+id/enter_button"
@@ -89,6 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
                 android:text="@string/mainPageButton"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 app:layout_constraintBottom_toBottomOf="parent"
