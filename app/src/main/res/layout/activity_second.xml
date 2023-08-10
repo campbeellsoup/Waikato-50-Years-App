@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".SecondActivity">
-    
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:background="@color/silver"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        
+
+        <!-- Image view to contain the main image of the page -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,18 +22,17 @@
             android:paddingRight="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.5"
-            android:contentDescription="@string/secondPageLogoDescription"
-            >
-
+            android:contentDescription="@string/secondPageLogoDescription">
         </ImageView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-    
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        
+
+        <!-- The text describing the main content of the application, constrained to the middle of its section -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,9 +43,9 @@
             app:layout_constraintBottom_toTopOf="@+id/secondPageButton"
             android:paddingBottom="15dp"
             android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            />
-        
+            android:layout_marginRight="25dp"/>
+
+        <!-- button to generate a fun fact - described in the second activity class -->
         <Button
             android:id="@+id/secondPageButton"
             android:layout_width="match_parent"

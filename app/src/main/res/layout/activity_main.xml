@@ -14,7 +14,7 @@
         android:tint="@color/semi_transparent_tint"
         tools:ignore="UseAppTint" />
 
-    <!-- Verical linear layout to contain logo, main text and button-->
+    <!-- Vertical linear layout to contain logo, main text and button-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
