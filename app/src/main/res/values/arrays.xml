@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="string_array_fun_facts_images">
+        <item>img_fun_fact_0</item>
+        <item>img_fun_fact_1</item>
+        <item>img_fun_fact_2</item>
+        <item>img_fun_fact_3</item>
+        <item>img_fun_fact_4</item>
+        <item>img_fun_fact_5</item>
+        <item>img_fun_fact_6</item>
+        <item>img_fun_fact_7</item>
+    </string-array>
+
+    <string-array name="string_array_fun_facts_text">
+        <item>The Department of Computer Science was founded in 1973</item>
+        <item>The first computing courses were offered in 1974</item>
+        <item>The School of Computing and Mathematical Sciences was founded in 1987</item>
+        <item>The first students to graduate with a Bachelor of Computing and Mathematical Sciences (BCMS) graduated in 1989</item>
+        <item>The official opening of G Block by Geoffrey Palmer, Prime Minister of New Zealand, took place in 1990.</item>
+        <item>R block opened in 1993</item>
+        <item>In 1993 we began teaching computer science in te reo Māori with 0657.113 Ngā Tautono Rorohiko</item>
+        <item>In 2002 Design joined the School of Computing Mathematical Sciences with the Bachelor of Computer Graphic Design (BCGD)</item>
+    </string-array>
+
+</resources>
